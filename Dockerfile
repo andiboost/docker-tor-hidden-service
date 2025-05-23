@@ -3,10 +3,10 @@ FROM python:3.10-alpine
 
 # Set necessary args for building
 # If omitted, the versions are determined from the git tags
-ARG TOR_BRANCH=0.4.8.16
-ARG TOR_COMMIT_HASH=5d040a975df7a060d0fa6b491cbfd5de2667543b
+ARG TOR_BRANCH=main
+ARG TOR_COMMIT_HASH=64ccafd8115ecdec52792881f143cd25ed34fc50
 ARG TORSOCKS_BRANCH=main
-ARG TORSOCKS_COMMIT_HASH=37b6e5b2671783224fe84f8e115577bd6810a007
+ARG TORSOCKS_COMMIT_HASH=7868aab684ce503ed7efa72a0d79e41a8f67ac65
 ARG NPROC
 
 ENV HOME=/var/lib/tor
