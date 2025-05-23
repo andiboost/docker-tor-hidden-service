@@ -3,7 +3,7 @@ FROM python:3.10-alpine
 
 # Set necessary args for building
 # If omitted, the versions are determined from the git tags
-ARG TOR_BRANCH=main
+ARG TOR_BRANCH=0.4.8.16
 ARG TOR_COMMIT_HASH=64ccafd8115ecdec52792881f143cd25ed34fc50
 ARG TORSOCKS_BRANCH=main
 ARG TORSOCKS_COMMIT_HASH=7868aab684ce503ed7efa72a0d79e41a8f67ac65
